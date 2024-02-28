@@ -63,6 +63,9 @@
 	  <MauiXaml Update="ConsumePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="MenuPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="MyButton.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

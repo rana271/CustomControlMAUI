@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomControl.BindingPage"
+              xmlns:myns="clr-namespace:CustomControl"
+             Title="BindingPage">
+    <VerticalStackLayout>
+        <Label 
+            Text="Hello"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" x:Name="lbl1" />
+        <Button Clicked="Button_Clicked" Text="Click"></Button>
+        <Button Text="Hello" BackgroundColor="AliceBlue" TextColor="Azure"></Button>
+        <myns:CartView CardTitle="Hello world"></myns:CartView>
+    </VerticalStackLayout>
+</ContentPage>
